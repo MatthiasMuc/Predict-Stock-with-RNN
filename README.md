@@ -16,16 +16,16 @@ No tests have been done with different Python versions.
 It is recommended to use a virtual environment for setup.  
 To run this project, you need to install the packages defined in requirements.txt:  
 ```pip install -r requirements.txt```   
-On Linux machines, the script setup.sh provides a convinient way to install the dependancies in a virtual environment.
+On Linux machines, the script ```setup.sh``` provides a convinient way to install the dependancies in a virtual environment.
 ## Folder Structure
-+ data/stocks contains all needed for different time periods (5/10/15/19 years).
-+ notebooks contains the Jupyter notebook with the definition of the model, training and test execution.
-+ results contains the result of the execution:
-    + results.csv:
++ ```data/stocks``` contains all data needed for different time periods (5/10/15/19 years).
++ ```notebooks``` contains the Jupyter notebook with the definition of the model, training and test execution.
++ ```results``` contains the result of the execution:
+    + ```results.csv```:
       Results of all training runs - one line for each execution
-    + MSFT-enhanced.csv:
+    + ```MSFT-enhanced.csv```:
       All input data used for training and predictions
-+ scripts contains the Python script loadStockData to download the data required.
++ ```scripts``` contains the Python script ```loadStockData.py``` to download the data required.
 ## Configuration of Parameters for Execution
 As of now, the configuration for a training and test run is done inside the code.  
 In the section "CONFIGURATION PARAMETERS" variables are set that determine the execution of training and test, e.g.:
@@ -36,5 +36,3 @@ In the section "CONFIGURATION PARAMETERS" variables are set that determine the e
 Start the execution of the notebook - that's it!  
 Several graphs will be generated inside the notebook.  
 Results will be written, as described above.
-
-
