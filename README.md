@@ -1,5 +1,6 @@
 # Predict-Stock-with-RNN
 Final project work for education: AI Engineer (DigEthics)  
+    
 **Project Title**: Prediction of stock price for next day with an RNN withthe example Microsoft stock  
 **Description**:  
 This project has been implemented as part of the education "AI Engineer".  
