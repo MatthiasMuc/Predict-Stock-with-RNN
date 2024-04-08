@@ -33,7 +33,7 @@ In the section "CONFIGURATION PARAMETERS" variables are set that determine the e
 - Which method to be used for feature selection
 - Shall optimization of hyperparameters with Optuna be done
 ## Execution
-Start the execution og the notebook - that's it!  
+Start the execution of the notebook - that's it!  
 Several graphs will be generated inside the notebook.  
 Results will be written, as described above.
 
