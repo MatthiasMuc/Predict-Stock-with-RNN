@@ -1,7 +1,7 @@
 # Predict-Stock-with-RNN
 Final project work for education: AI Engineer (DigEthics)  
     
-**Project Title**: Prediction of stock price for next day with an RNN withthe example Microsoft stock  
+**Project Title**: Prediction of stock price for next day with an RNN with the example Microsoft stock  
 **Description**:  
 This project has been implemented as part of the education "AI Engineer".  
 It uses an RNN to provide prediction of "Close" for next business day.  
@@ -14,9 +14,9 @@ An enviroment with Python 3.9.6 is required.
 No tests have been done with different Python versions.
 ## Installation
 It is recommended to use a virtual environment for setup.  
-To run this project, you need to install the packages defined in requirements.txt:
-pip install -r requirements.txt 
-On Linux machines, the script setup.sh provides a convinient way to install the dependancies in a virtual environment. 
+To run this project, you need to install the packages defined in requirements.txt:  
+```pip install -r requirements.txt```
+On Linux machines, the script setup.sh provides a convinient way to install the dependancies in a virtual environment.`
 ## Folder Structure
 + data/stocks contains all needed for different time periods (5/10/15/19 years).
 + notebooks contains the Jupyter notebook with the definition of the model, training and test execution.
