@@ -15,7 +15,7 @@ No tests have been done with different Python versions.
 ## Installation
 It is recommended to use a virtual environment for setup.  
 To run this project, you need to install the packages defined in requirements.txt:  
-```pip install -r requirements.txt``` . 
+```pip install -r requirements.txt```   
 On Linux machines, the script setup.sh provides a convinient way to install the dependancies in a virtual environment.
 ## Folder Structure
 + data/stocks contains all needed for different time periods (5/10/15/19 years).
